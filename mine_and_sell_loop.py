@@ -61,7 +61,9 @@ def sell_cargo():
                 data={"symbol": resource_symbol, "units": resource_units},
             )
 
+        print("\n")
         print(f"Credit balance: {get_my_credit_balance():,}")
+        print("\n")
 
 
 def extract_resources():
